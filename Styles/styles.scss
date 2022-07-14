@@ -1,4 +1,6 @@
-/*Grid página principal*/
+/*Variables*/
+$fuente: 'Roboto Slab', serif;
+
 
 /*Estilos body*/
 body {
@@ -21,7 +23,7 @@ body {
     justify-content: center;
     align-content: start;
     justify-items: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: $fuente;
  }
  
  #headerHijo {
