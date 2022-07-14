@@ -241,21 +241,21 @@ body {
     align-content: space-between;
     justify-self: center;
     align-self: center;
- }
- 
- .barraRedes i{
-     color: #666;
-     font-size: 24px;
-     transition: all 0.5s;
- }
- 
- .barraRedes i:hover{
-    color: #ECE9E6;
-    background-color: #666;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
+
+    i{
+        color: #666;
+        font-size: 24px;
+        transition: all 0.5s;
+
+        &:hover{
+            color: #ECE9E6;
+            background-color: #666;
+            border-bottom-right-radius: 3px;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 0px;
+         }
+    }
  }
  
  

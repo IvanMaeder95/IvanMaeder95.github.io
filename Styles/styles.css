@@ -228,13 +228,11 @@ h1 {
   justify-self: center;
   align-self: center;
 }
-
 .barraRedes i {
   color: #666;
   font-size: 24px;
   transition: all 0.5s;
 }
-
 .barraRedes i:hover {
   color: #ECE9E6;
   background-color: #666;
