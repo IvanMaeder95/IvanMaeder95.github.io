@@ -1,10 +1,11 @@
 /*Variables*/
 $fuente: 'Roboto Slab', serif;
+$colorFondo: linear-gradient(#ECE9E6, #fff 98%);
 
 
 /*Estilos body*/
 body {
-    background-image: linear-gradient(#ECE9E6, #fff 98%);
+    background-image: $colorFondo;
  }
  
  h1 {
