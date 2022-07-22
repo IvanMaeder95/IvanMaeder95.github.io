@@ -1,0 +1,4 @@
+@mixin textoH1{
+    text-align: map-get($displays, "centrado");
+    margin-bottom: 50px;
+}
